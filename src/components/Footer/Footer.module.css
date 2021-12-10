@@ -1,0 +1,28 @@
+.footer {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.blurb {
+  grid-column: 1 / 2;
+  padding: 2rem;
+}
+
+.blurb p {
+  margin: 0;
+}
+
+.linksContainer {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.linksContainer a {
+  color: #4aa8ff;
+  text-decoration: none;
+  font-weight: 500;
+}
