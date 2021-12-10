@@ -80,10 +80,17 @@ const App = () => {
         <div className="interested">
           <h1>Intersted???</h1>
           <p>
-            Our starting prices are 0.5 ETH, but price negotiable on the
-            package. Hit us up on discord!
+            Our starting prices are 0.5 ETH, but price negotiable on the package
+            + features. Hit us up on discord!
           </p>
-          <button className="blue-button">Open Discord</button>
+          <button
+            className="blue-button"
+            onClick={() =>
+              (window.location.href = "https://discord.gg/jFdK4c3H5j")
+            }
+          >
+            Open Discord
+          </button>
         </div>
       </FadeIn>
       <Footer />
